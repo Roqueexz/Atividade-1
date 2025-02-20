@@ -1,0 +1,17 @@
+var teclado = require("prompt-sync")();
+console.log("---------------------");
+console.log(" Calculo M\u00E9dia");
+console.log("---------------------");
+var nome = teclado("Digite o nome do aluno:");
+var notaBimestralUm = parseInt(teclado("Digite a nota N1:"));
+var notaBimestralDois = parseInt(teclado("Digite a nota N2"));
+var notaBimestralTres = parseInt(teclado("Digite a nota N3:"));
+var notaBimestralQuatro = parseInt(teclado("Digite a nota N4"));
+var nnotaBimestralCinco = parseInt(teclado("Digite a nota N5:"));
+var notaBimestralSeis = parseInt(teclado("Digite a nota N6"));
+var notaBimestralSete = parseInt(teclado("Digite a nota N7:"));
+var notaBimestralOito = parseInt(teclado("Digite a nota N8:"));
+var notaBimestralNove = parseInt(teclado("Digite a nota N9"));
+var notaBimestralDez = parseInt(teclado("Digite a nota N10"));
+var media = (notaBimestralUm + notaBimestralDois + notaBimestralTres + notaBimestralQuatro + nnotaBimestralCinco + notaBimestralSeis + notaBimestralSete + notaBimestralOito + notaBimestralDez + notaBimestralDez) / 10;
+console.log("O nome do aluno \u00E9 ".concat(nome, " e a m\u00E9dia \u00E9 ").concat(media));
